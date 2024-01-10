@@ -1,8 +1,7 @@
 html {
-font-size: 10.5pt;
+  font-size: 10.5pt;
 }
 
-
 .max-w-prose {
-max-width: 75ch;
+  max-width: 75ch;
 }

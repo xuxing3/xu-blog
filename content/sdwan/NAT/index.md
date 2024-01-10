@@ -1,16 +1,15 @@
-+++
+---
 title: "CONE NAT 和 Symmetric NAT"
 description: ""
 date: 2023-10-16T04:25:12Z
 lastmod: 2023-10-16T04:25:12Z
 categories:
 tags:
-
-- SDWAN
-- NAT
+  - SDWAN
+  - NAT
 
 draft: false
-+++
+---
 
 ## NAT 的划分
 
