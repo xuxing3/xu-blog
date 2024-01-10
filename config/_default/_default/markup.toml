@@ -1,0 +1,21 @@
+[goldmark]
+[goldmark.renderer]
+  unsafe = true
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4
+
+[highlight]
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ''
+  lineAnchors = ''
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = false
+  noHl = false
+  style = 'xcode'
+  tabWidth = 4
