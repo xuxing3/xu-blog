@@ -12,7 +12,7 @@ title = "Rory"
 
   dateFormat = "2 January 2006"
 
-  # mainSections = ["section1", "section2"]
+  mainSections = ["sdwan", "blog"]
   # description = "My awesome website"
 
 [author]
