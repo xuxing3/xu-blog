@@ -30,7 +30,7 @@ git clone https://github.com/CiscoDevNet/Getting-started-with-Cisco-SD-WAN-REST-
 │   └── Cisco-Reservable-SD-WAN.postman_collection.json
 ```
 
-在 Postman 文件夹下会有两个文件夹，一个包含你的 vManage 的 username 和 password 的相关设定，另一个包含一些常见的 API。我们都将他导入到 Postman 中，如下：
+在 Postman 文件夹下会有两个文件，一个包含你的 vManage 的 username 和 password 的相关设定，另一个包含一些常见的 API。我们都将他导入到 Postman 中，如下：
 
 ![import file to postman](import-file-to-postman.png)
 
