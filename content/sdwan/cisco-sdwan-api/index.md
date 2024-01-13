@@ -3,7 +3,7 @@ title: "Cisco Sdwan Api"
 date: "2024-01-11T11:47:21+08:00"
 tags:
   - SDWAN
-draft: true
+draft: false
 ---
 
 Cisco SDWAN vManage 提供了一个 REST API 接口， 通过这个接口我们可以之间 get 很多设备信息，或者执行一些配置的下发。
