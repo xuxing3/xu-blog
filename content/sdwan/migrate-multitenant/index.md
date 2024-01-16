@@ -49,7 +49,7 @@ vbond 升级和 vMange 升级类似。
 **Warning!** 注意这个地方一定需要下发 vSmart 模版，无论是 CLI 模版 or 标准的模版，否则你将会在下一步 API 操作中遇到报错`Found 0 vSmarts in vManage node, Need atleast 2 vSmarts in vManaged mode and In Sync to onboard a tenant`
 {{< /alert >}}
 
-### Enable maintenance window on Cisco vManage
+### Enable maintenance window on vManage
 
 ![mw setup on vManage](mw-setup.png)
 
