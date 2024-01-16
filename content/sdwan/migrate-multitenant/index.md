@@ -41,7 +41,7 @@ vbond 升级和 vMange 升级类似。
 
 ### Add New two 20.6.x vSmart
 
-添加 2 个 20.6.x 的 vSmart，如果 Tenancy 比较多，那安装 Tenancy 的数量去选择在这一步添加多少个 vSmart。
+添加 2 个 20.6.x 的 vSmart，如果 Tenancy 比较多，那按照 Tenancy 的数量去选择在这一步添加多少个 vSmart。
 
 添加至 vManage 后进行证书的安装， 并下发 vSmart 模版.
 
