@@ -46,7 +46,7 @@ vbond 升级和 vMange 升级类似。
 添加至 vManage 后进行证书的安装， 并下发 vSmart 模版.
 
 {{< alert >}}
-**Warning!** 注意这个地方一定需要下发 vSmart 模版，无论是 CLI 模版 or 标准的模版，否则你将会在下一步 API 操作中遇到报错`Found 0 vSmarts in vManage node, Need atleast 2 vSmarts in vManaged mode and In Sync to onboard a tenant`
+注意这个地方一定需要下发 vSmart 模版，无论是 CLI 模版 or 标准的模版，否则你将会在下一步 API 操作中遇到报错`Found 0 vSmarts in vManage node, Need atleast 2 vSmarts in vManaged mode and In Sync to onboard a tenant`
 {{< /alert >}}
 
 ### Enable maintenance window on vManage
@@ -54,7 +54,7 @@ vbond 升级和 vMange 升级类似。
 ![mw setup on vManage](mw-setup.png)
 
 {{< alert >}}
-**Warning!** 这个地方的时间是 GUI 页面登录 PC 的时间，不是 vMange host 所在地方的时间。
+这个地方的时间是 GUI 页面登录 PC 的时间，不是 vMange host 所在地方的时间。
 {{< /alert >}}
 
 这个步骤也无法省略，否则在 API 下发步骤会遇到报错`vManage is not in maintenance node, Cannot migrate tenants to MT vSmarts at the time`.
@@ -78,3 +78,7 @@ API 执行成功后回回复一个 task-id：
 ![monitor Task](monitor-task.png)
 
 当所有的 task 都完成后， 旧的 20.3.7.1 vSmart 将会被移除，新加入的 20.6.x vSmart 将和所有的 vEdge/cEdge 建立控制连接。
+
+## Reference
+
+[Offical MT Migration Guide](https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/system-interface/vedge-20-x/systems-interfaces-book/sdwan-multitenancy.html#mt-mt-migration)
