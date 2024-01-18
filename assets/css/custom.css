@@ -5,3 +5,7 @@ html {
 .max-w-prose {
   max-width: 75ch;
 }
+
+.highlight-wrapper {
+  font-size: 12px;
+}
