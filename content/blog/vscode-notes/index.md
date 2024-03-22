@@ -3,7 +3,6 @@ title: "Vscode Notes"
 date: "2024-03-22T15:02:18+08:00"
 tags:
   - vscode
-draft: true
 ---
 
 ## 插件
